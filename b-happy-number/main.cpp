@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 
 using namespace std;
+
 void f(int n, int cnt) {
   int sum = 0;
   while (n > 0) {
@@ -14,7 +15,7 @@ void f(int n, int cnt) {
     cout << "Yes" << endl;
     return;
   }
-  // 300回程度繰り返せば十分である
+  // 理論上300回程度繰り返せば十分である(README参照)
   if (cnt >= 300) {
     cout << "No" << endl;
     return;
